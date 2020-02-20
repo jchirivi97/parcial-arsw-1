@@ -38,6 +38,6 @@ public class MoneyLaunderingServiceStub implements MoneyLaunderingService {
 
     @Override
     public List<SuspectAccount> getSuspectAccounts() {
-        return null;
+        return susp;
     }
 }
